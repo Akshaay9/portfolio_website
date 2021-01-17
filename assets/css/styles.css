@@ -251,7 +251,7 @@ a{
 
 /*===== HOME =====*/
 .home{
-  height: calc(100vh - 3rem);
+  height: calc(83vh - 3rem);
   row-gap: 1rem;
 }
 .home__data{
