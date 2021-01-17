@@ -143,9 +143,26 @@ img{
   -moz-box-shadow: 20px 13px 12px -8px rgba(168,161,168,1);
   box-shadow: 20px 13px 12px -8px rgba(168,161,168,1);
 }
+.btns{
+  display: flex;
+  justify-content: space-around;
+}
+.live,.source{
+  border: none;
+  outline: none;
+  width: 30%;
+  margin: 8px;
+
+}
 @media screen and (max-width: 768px){
-  .works{
-    margin-top: 130px;
+  .live,.source{
+    border: none;
+    outline: none;
+    width: 40%;
+  
+  }
+  .work{
+    /* margin-top: 130px; */
   }
   .nav__menu{
     position: fixed;
@@ -167,7 +184,7 @@ img{
   
     /* object-fit: contain; */
   }
-  img{
+  .logoimg{
     width: 129%;
    position: relative;
    top: -110px;
