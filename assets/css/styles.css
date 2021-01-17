@@ -19,6 +19,9 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+p{
+  line-height: 32px;
+}
 @media screen and (min-width: 768px){
   :root{
     --big-font-size: 3.5rem;
@@ -293,19 +296,13 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 98%;
 }
 .skills__css{
-  width: 85%;
+  width: 91%;
 }
-.skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
-}
-.skills__img{
-  border-radius: .5rem;
+.skills__node{
+  width: 86%;
 }
 
 /* ===== WORK =====*/
@@ -376,7 +373,7 @@ img{
     padding-bottom: 2rem;
 }
   .section-title{
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-);
   }
   .section-title::after{
     width: 80px;
