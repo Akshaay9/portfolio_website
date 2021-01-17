@@ -196,11 +196,11 @@ a{
     margin: auto;
     box-shadow: none;
   }
-  .logoimg{
-    width: 129%;
-   position: relative;
-   top: -110px;
-   object-fit: cover;
+  .home__img img{
+   position: relative; 
+   top: -140px;
+  object-fit: cover;
+  display: inline-block;
   }
 }
 .nav__item{
