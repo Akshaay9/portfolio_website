@@ -130,6 +130,19 @@ img{
   align-items: center;
   font-weight: var(--font-semi);
 }
+/* project */
+.work{
+  width: 70%;
+  margin: auto;
+ margin-top: 30px;
+
+  object-fit: contain;
+}
+.work{
+  -webkit-box-shadow: 20px 13px 12px -8px rgba(168,161,168,1);
+  -moz-box-shadow: 20px 13px 12px -8px rgba(168,161,168,1);
+  box-shadow: 20px 13px 12px -8px rgba(168,161,168,1);
+}
 @media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
@@ -140,6 +153,13 @@ img{
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+  }
+  .work{
+    width: 90%;
+    margin: auto;
+   margin-top: 30px;
+  
+    object-fit: contain;
   }
   img{
     width: 129%;
