@@ -73,7 +73,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 100%;
+  max-width: 130%;
  position: relative;
 }
 
@@ -199,8 +199,10 @@ a{
   .home__img img{
    position: relative; 
    top: -140px;
+   right:35px;
   object-fit: cover;
   display: inline-block;
+  width: 110%;
   }
 }
 .nav__item{
@@ -428,10 +430,7 @@ a{
   .section-title{
     margin-top: -5px;
   }
-  .section-title::after{
-    width: 80px;
-    
-  }
+ 
 
   .nav{
     height: calc(var(--header-height) + 1rem);
