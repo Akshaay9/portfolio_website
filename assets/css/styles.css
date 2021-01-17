@@ -158,15 +158,14 @@ h5{
   padding: 1%;
   margin: 0%;
 }
+a{
+  color: white 
+}
 @media screen and (max-width: 768px){
   .live,.source{
     border: none;
     outline: none;
     width: 40%;
-  
-  }
-  .work{
-    /* margin-top: 130px; */
   }
   .nav__menu{
     position: fixed;
@@ -180,13 +179,9 @@ h5{
   }
   .work{
     width: 99%;
-    /* height: 35vh; */
     padding: 22px;
     margin: auto;
     box-shadow: none;
-   /* margin-top: 10px; */
-  
-    /* object-fit: contain; */
   }
   .logoimg{
     width: 129%;
