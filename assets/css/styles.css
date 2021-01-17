@@ -144,7 +144,7 @@ img{
   img{
     max-width: 100%;
    position: relative;
-   top: -60px;
+   top: -150px;
   }
 }
 .nav__item{
@@ -209,6 +209,7 @@ img{
 .home__social{
   display: flex;
   flex-direction: column;
+  padding: -25px;
 }
 .home__social-icon{
   width: max-content;
@@ -373,7 +374,7 @@ img{
     padding-bottom: 2rem;
 }
   .section-title{
-    margin-bottom: var(--mb-);
+    margin-top: -15px;
   }
   .section-title::after{
     width: 80px;
@@ -406,7 +407,7 @@ img{
   }
   .home__social{
     padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
     flex-direction: row;
     align-self: flex-end;
   }
