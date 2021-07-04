@@ -1,1 +1,1 @@
-https://akshayportfoloio98.netlify.app/
+https://akshaytech.netlify.app/
